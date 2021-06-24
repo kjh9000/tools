@@ -3,7 +3,9 @@
 # datausecalc.py -  A data usage calculator for Tello users
 # github.com/kjh9000
 
-''' Instructions - Copy and paste the wall of text rom the website and paste it into datausecalc.txt. Note the potential for fencepost errors. You are responsible for choosing what days to include in the calculation.
+''' Instructions - Copy and paste the wall of text rom the website and paste it into
+datausecalc.txt. Note the potential for fencepost errors. You are responsible for 
+choosing what days to include in the calculation.
 
 '''
 

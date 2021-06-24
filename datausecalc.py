@@ -18,7 +18,7 @@ except (NameError, FileNotFoundError):
 else:
     sum = 0
     count = 0
-    for i in re.compile(r'(\d{1,5}\.\d{1,2}|\d{1,5}) MB').findall(testtext.read()):
+    for i in re.compile(r'(\d{1,5}(\.\d{1,2})? MB').findall(testtext.read()):
         count += 1
         sum += float(i)
     if sum == 0:

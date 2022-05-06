@@ -6,7 +6,7 @@
 # the files to be renamed or it will be renamed and wont be easy to find
 cd / your path here
 
-# currently its set up to rename up 999 (i think. havent tried with more than # 999) mp4 files
+# currently its set up to rename up to 999 file with mp4 extension.
 i=0
 for file in *; do
     mv "$file" "$(printf %03d $i).mp4"
